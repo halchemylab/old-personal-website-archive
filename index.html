@@ -1,83 +1,456 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
-	<head>
-		<title>Haqua's Dimension</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HAQUA</title>
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- Font Awesome -->
 
-				<!-- Header -->
-					<header id="header">
-						<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-						<h1>Hello! Welcome to <strong>Haqua's Dimension</strong>, except there's nothing special here.</h1>
-						<ul class="icons">
-							<li><a href="https://twitter.com/alchemy27" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="profile/index.html" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
-							<li><a href="mailto:harthur96@gmail.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-					</header>
 
-				<!-- Main -->
-					<section id="main">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-						<!-- Thumbnails -->
-							<section class="thumbnails">
-								<div>
-									<a href="images/fulls/01.jpg">
-										<img src="images/thumbs/01.JPG" alt="" />
-										<h3>Digital Illustration</h3>
-									</a>
-									<a href="images/fulls/02.JPG">
-										<img src="images/thumbs/02.JPG" alt="" />
-										<h3>Web Design</h3>
-									</a>
-								</div>
-								<div>
-									<a href="images/fulls/03.JPG">
-										<img src="images/thumbs/03.JPG" alt="" />
-										<h3>Scanlation</h3>
-									</a>
-									<a href="images/fulls/04.jpg">
-										<img src="images/thumbs/04.jpg" alt="" />
-										<h3>Sketching</h3>
-									</a>
-									<a href="images/fulls/05.jpg">
-										<img src="images/thumbs/05.jpg" alt="" />
-										<h3>Journalism</h3>
-									</a>
-								</div>
-								<div>
-									<a href="images/fulls/06.jpg">
-										<img src="images/thumbs/06.jpg" alt="" />
-										<h3>Photography</h3>
-									</a>
-									<a href="images/fulls/07.JPG">
-										<img src="images/thumbs/07.JPG" alt="" />
-										<h3>Game Streaming</h3>
-									</a>
-								</div>
-							</section>
+     <!-- Preloader -->
+    <link rel="stylesheet" href="css/preloader.css" type="text/css" media="screen, print"/>
 
-					</section>
+    <!-- Icon Font-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="css/animate.css">
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p>&copy; Halchemy 2019. All rights reserved.</p>
-					</footer>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/lte-ie7.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+                <!-- Preloader -->
+                <div id="preloader">
+                    <div id="status">&nbsp;</div>
+                </div>
+
+
+
+
+    <header id="HOME" style="background-position: 50% -125px;">
+	        <div class="section_overlay">
+	            <nav class="navbar navbar-default navbar-fixed-top">
+	              <div class="container">
+	                <!-- Brand and toggle get grouped for better mobile display -->
+	                <div class="navbar-header">
+	                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                  </button>
+	                  <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+	                </div>
+
+	                <!-- Collect the nav links, forms, and other content for toggling -->
+	                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                  <ul class="nav navbar-nav navbar-right">
+	                    <li><a href="#HOME">Home</a></li>
+	                    <li><a href="#SERVICE">Services</a></li>
+	                    <li><a href="#ABOUT">About</a></li>
+	                    <li><a href="#WORK">Work</a></li>
+	                    <li><a href="#CONTACT">Contact</a></li>
+	                  </ul>
+	                </div><!-- /.navbar-collapse -->
+	              </div><!-- /.container -->
+	            </nav> 
+
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-12 text-center">
+	                        <div class="home_text wow fadeInUp animated">
+	                            <h2>it’s haqua</h2>
+	                            <p>always in beta: learning, improving, evolving...</p>
+	                            <img src="images/shape.png" alt="">                        
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-12 text-center">
+	                        <div class="scroll_down">
+                            <a href="#SERVICE"><img src="images/scroll.png" alt=""></a>
+	                            <h4>Scroll Down</h4>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>            
+	        </div>  
+	    </section>         
+    </header>
+
+
+    <section class="services" id="SERVICE">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="1s">
+                        <i class="icon-pencil"></i>
+                        <h2>Drafting</h2>
+                        <p>Practiced digital design or illustration.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="2s">
+                        <i class="icon-gears"></i>
+                        <h2>Development</h2>
+                        <p>Effective system engineering and implementation.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="3s">
+                        <i class="icon-camera"></i>
+                        <h2>Framing</h2>
+                        <p>Proficient big-picture, strategic consulting.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="4s">
+                        <i class="icon-magnifying-glass"></i>
+                        <h2>Knowledge</h2>
+                        <p>Gathering and understanding facts to yeild sound analysis.</p>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <section class="about_us_area" id="ABOUT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="about_title">
+                        <h2>About Me</h2>
+                        <img src="images/shape.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4  wow fadeInLeft animated">
+                    <div class="single_progress_bar">
+                        <h2>DESIGNING - 90%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2>ILLUSTRATING - 60%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2>CODING - 75%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2>TRANSLATION - 95%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  wow fadeInRight animated">
+                    <p class="about_us_p">As a <b>Content Creator</b>, I have a passion for design, illustration, coding, and translation. I have been involved in different groups to work on projects that involves such skills. Of course, I also work on some solo projects. The experiences I gained from each area complements the other ones, increasing my ability to create something I am proud of.</p>
+                </div>
+                <div class="col-md-4  wow fadeInRight animated">
+                    <p class="about_us_p">As a professional <b>Systems Engineer</b>, I have designed and created websites as well as re-engineered systems for clients. I have also created many scripts that automates my client's workflow, freeing them from lower-level manual work for higher-level thinking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="testimonial text-center wow fadeInUp animated" id="TESTIMONIAL">
+        <div class="container">
+            </div>            
+        </div>
+    </section>
+
+
+    <div class="fun_facts">
+    	<section class="header parallax home-parallax page" id="fun_facts" style="background-position: 50% -150px;">
+	        <div class="section_overlay">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-6 wow fadeInLeft animated">
+	                        <div class="row">
+	                            <div class="col-md-4">
+	                                <div class="single_count">
+	                                    <i class="icon-toolbox"></i>
+	                                    <h3>30+</h3>
+	                                    <p>Projects Done</p>
+	                                </div>
+	                            </div>
+	                            <div class="col-md-4">
+	                                <div class="single_count">
+	                                    <i class="icon-clock"></i>
+	                                    <h3>500+</h3>
+	                                    <p>Hours of Experience</p>
+	                                </div>                            
+	                            </div>
+	                            <div class="col-md-4">
+	                                <div class="single_count">
+	                                    <i class="icon-trophy"></i>
+	                                    <h3>6</h3>
+	                                    <p>Recommendations</p>
+	                                </div>                            
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>            
+	        </div>
+	    </section>    
+    </div>
+    <section class="work_area" id="WORK">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="work_title  wow fadeInUp animated">
+                        <h1>Sample Projects</h1>
+                        <img src="images/shape.png" alt="">
+                        <p>This area showcases the different types of projects that I have produced in the past. My projects are not limited to the ones shown below.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w1.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>digital illustration</h2>
+                            <h4>with pen tablet</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w2.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w3.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>game creation</h2>
+                            <h4>with coding</h4>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="row pad_top">
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w4.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>photography</h2>
+                            <h4>with phone camera</h4>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w5.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>website designing</h2>
+                            <h4>with golden ratio</h4>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image last_padding">
+                        <img src="images/w6.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>translating</h2>
+                            <h4>with languages</h4>
+                        </div>                        
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </section>
+    <section class="call_to_action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 wow fadeInLeft animated">
+                    <div class="left">
+                        <h2>LOOKING FOR OTHER CONSULTING?</h2>
+                        <p>If you are interested in areas of <b>illustration</b>, <b>scanlation</b>, <b>translation</b>, <b>game creation</b>, <b>music and voice recording</b>, <b>website and system design</b>, don't wait! I have experience with all of the said areas, and have confidence in my expertise to give you the best consultation.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-1 wow fadeInRight animated">
+                    <div class="baton">
+	                    <a href="#CONTACT">
+	                        <button type="button" class="btn btn-primary cs-btn">Let's Talk</button>
+	                    </a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="CONTACT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="contact_title  wow fadeInUp animated">
+                        <h1>get in touch</h1>
+                        <img src="images/shape.png" alt="">
+                        <p>If you want to connect... feel free to contact me with any of the information provided below</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3  wow fadeInLeft animated">
+                    <div class="single_contact_info">
+                        <h2>Call Me</h2>
+                        <p>+1 781-698-6521</p>
+                    </div>
+                    <div class="single_contact_info">
+                        <h2>Email Me</h2>
+                        <p>hyp243@nyu.edu</p>
+                    </div>
+                    <div class="single_contact_info">
+                        <h2>Address</h2>
+                        <p>80 Lafayette St, New York, NY 10013</p>
+                    </div>
+                </div>
+                <div class="col-md-9  wow fadeInRight animated">
+                    <form class="contact-form" action="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">                                
+                            </div>
+                            <div class="col-md-6">
+                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
+                                <button type="button" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>                                
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="work-with   wow fadeInUp animated">
+                        <h3>looking forward to hearing from you!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<footer>
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center   wow fadeInUp animated">
+                    <div class="social">
+                        <h2>follow me here!</h2>
+                        <ul class="icon_list">
+                            <li><a href="https://twitter.com/alchemy27"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/henry-pai-1047a0143?trk=public_profile_samename_profile_profile-result-card_result-card_full-click"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="profile/index.html"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="copyright_text   wow fadeInUp animated">
+                        <p>&copy; halchemy 2020. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========================
+     SCRIPTS 
+============================== -->
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+</body>
+
 </html>
