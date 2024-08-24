@@ -1,1 +1,1 @@
-url: halchemylabs.github.io
+url: halchemylab.github.io
